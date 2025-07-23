@@ -1,0 +1,6 @@
+let locations = window.location.pathname;
+let origin = window.location.origin;
+if (locations == "/cart") {
+  console.log("sdfdsfs");
+  window.location.href = origin;
+}

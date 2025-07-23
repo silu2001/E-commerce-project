@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relaxo Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- <a href="#"><img src="solex.png" class="logo" alt=""></a> -->
+    <div class="navbar">
+        <a href="#"><img src="solex.png" class="logo" alt=""></a>
+        <ul class="nav-links">
+            <li class="hideMobile"><a href="index.html">HOME</a></li>
+            <li class="hideMobile"><a href="men.html">MEN</a></li>
+            <li class="hideMobile"><a href="kids.html">KIDS</a></li>
+            <li class="hideMobile"><a href="women.html">WOMEN</a></li>
+            <li class="hideMobile"><a href="#">ALL BRANDS</a></li>
+            <li class="hideMobile"><a href="sale.html" class="sale">SALE</a></li>
+            <li onclick=showSider() class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+
+        </ul>
+        <ul class="sidebar">
+            <li onClick="hideSider()" class="hideMenu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="women.html">WOMEN</a></li>
+            <li><a href="men.html">MEN</a></li>
+            <li><a href="kids.html">KIDS</a></li>
+            <li><a href="#">ALL BRANDS</a></li>
+            <li><a href="sale.html" class="sale">SALE</a></li>
+        </ul>
+
+        <div class="icons">
+
+            <span class="icon">❤️</span>
+            <span class="icon">🔍</span>
+
+        </div>
+    </div>
+    <div class="brands-section">
+        <h1>OUR LOVED BRANDS</h1>
+        <div class="brand-container">
+            <div class="brand-box">
+                <a href="sparx.html"><img src="brand_SPARX.png" alt="Sparx Brand"></a>
+            </div>
+            <div class="brand-box">
+                <a href="flite.html"><img src="brand_logos_FLITE.png" alt="Flite Brand"></a>
+            </div>
+            <div class="brand-box">
+                <a href="bahamash.html"><img src="brand_logos_Bahamas.png" alt="Bahamas Brand"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
